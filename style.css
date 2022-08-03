@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url('Cap.png');
+   background-repeat: none;
+   background-size: 100% 100%;
+   background-blend-mode: lighten;
+ 
+   
+}
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.mainheader .logo img{
+width: 250px;
+height: 70px;
+padding-left: 60px;
+}
+.mainheader nav{
+    width:450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainheader nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.menubtn{
+    margin-right: 60px;
+}
+.mainheader button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14x;
+    color:rgb(12, 11, 11);
+    border: none;
+    background-color:orange;
+    border-radius: 10px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .left-sec{
+    padding: 100px;
+    margin-top: 260px;
+}
+.but{
+    background-color: orange;
+    color: black;
+}
